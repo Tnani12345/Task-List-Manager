@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  background-image: url('https://adniasolutions.com/wp-content/uploads/2020/06/adnia-scaled.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  padding: 20px;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.85); 
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #4a90e2;
+}
+
+.add-task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-task-form input, 
+.add-task-form select, 
+.add-task-form button {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.add-task-form button {
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-task-form button:hover {
+  background-color: #357ab7;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #4a90e2;
+  color: white;
+}
+
+table td {
+  background-color: #fafafa;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+button {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff6f61;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e85c4f;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+input[type="text"], select {
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+input[type="text"]:focus, select:focus {
+  outline: 2px solid #4a90e2;
+}
